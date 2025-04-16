@@ -264,3 +264,30 @@ button:hover, .btn:hover {
   color: #cccccc;
   margin-bottom: 1.2em;
 }
+
+.free-consult-banner {
+  background-color: #121212;
+  color: #f2f2f2;
+  padding: 3em 2em;
+  margin: 3em auto;
+  border-top: 2px solid #e60023;
+  border-bottom: 2px solid #e60023;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.free-consult-banner p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 1.5em;
+}
+
+.free-consult-banner strong {
+  color: #e60023;
+}
+
+.free-consult-banner .btn {
+  font-size: 1rem;
+}
+
+
