@@ -131,7 +131,7 @@ button:hover, .btn:hover {
   border-radius: 8px;
   background-color: #1a1a1a;
   padding: 0.5em;
-  border: 2px solid #e60023;
+   border: 2px solid #e60023; 
 }
 
 .hero-text {
@@ -168,5 +168,57 @@ button:hover, .btn:hover {
 
   .button-group .btn {
     width: 80%;
+  }
+}
+
+.services-section {
+  background-color: #121212;
+  padding: 4em 2em;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-top: 2px solid #e60023;
+}
+
+.services-section h2 {
+  color: #ffffff;
+  font-size: 2rem;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.service-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+}
+
+.service-item {
+  background-color: #1a1a1a;
+  padding: 1.5em;
+  border-radius: 8px;
+  border-left: 4px solid #e60023;
+  box-shadow: 0 0 10px rgba(230, 0, 35, 0.05);
+}
+
+.service-item h3 {
+  margin-bottom: 0.5em;
+  color: #ffffff;
+}
+
+.service-item p {
+  color: #cccccc;
+  font-size: 1rem;
+}
+
+.services-section .note {
+  text-align: center;
+  margin-top: 3em;
+  font-style: italic;
+  color: #999999;
+}
+
+@media (max-width: 768px) {
+  .service-list {
+    grid-template-columns: 1fr;
   }
 }
