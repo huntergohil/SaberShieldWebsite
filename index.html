@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <title>Sabershield Cybersecurity LLC</title>
   <link rel="stylesheet" href="css/style.css">
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -38,33 +40,52 @@
   <section class="services-section">
     <h2>Our Services</h2>
     <div class="service-list">
-      <div class="service-item">
+      <div class="service-item" data-aos="fade-up">
         <h3>Penetration Testing</h3>
-        <p>Tiered penetration testing with detailed reporting, proofs of concept, retesting, and remediation guidance.</p>
+        <p>
+          Full-Scale penetration testing that simulates real attacks malicious hackers may launch that can include reports, retesting, remediation guidance, and other services.  
+          These tests come with tiers to optimally suit your business's needs. 
+          Penetration testing is the backbone of ensuring your network is secure. 
+        </p>
       </div>
-      <div class="service-item">
+      <div class="service-item" data-aos="fade-up">
         <h3>Phishing Campaign</h3>
-        <p>Custom phishing simulations including crafted emails and detailed post-campaign reports.</p>
+        <p>
+          Customizable phishing simulations including hand-crafted emails and phone calls.
+          Phishing simulations provide valuable information on the activity of employees. 
+        </p>
       </div>
-      <div class="service-item">
+      <div class="service-item" data-aos="fade-up">
         <h3>User Training</h3>
-        <p>Interactive cybersecurity training sessions focused on compliance, awareness, and safe practices.</p>
+        <p>
+          Live cybersecurity classes that are taught by a real cybersecurity professional. 
+          These classes aid employees in preventing cyber attacks at the source!
+        </p>
       </div>
-      <div class="service-item">
+      <div class="service-item" data-aos="fade-up">
         <h3>Threat Model Creation</h3>
-        <p>Development of application-specific threat models using the MITRE ATT&CK framework.</p>
+        <p>
+          Development of application-specific threat models using a reputable cybersecurity framework.
+          These threat models aid developers in preventing threats as they add new features! 
+        </p>
       </div>
-      <div class="service-item">
+      <div class="service-item" data-aos="fade-up">
         <h3>Security Policy Creation</h3>
-        <p>Creation of security policies for developers and leadership to implement organization-wide safeguards.</p>
+        <p>
+          Security policies that aid organizations ensure their employees are following proper cybersecurity procedures! 
+        </p>
       </div>
-      <div class="service-item">
+      <div class="service-item" data-aos="fade-up">
         <h3>Code Review</h3>
-        <p>Manual code review to identify common vulnerabilities, misconfigurations, and insecure patterns.</p>
+        <p>
+          Manual code reviews by a cybersecurity professional to identify possible vulnerabilities based on known patterns. 
+        </p>
       </div>
-      <div class="service-item">
+      <div class="service-item" data-aos="fade-up">
         <h3>Disaster Recovery Planning</h3>
-        <p>Development of tailored disaster recovery plans to ensure business continuity during security incidents.</p>
+        <p>
+          Development of tailored disaster recovery plans to ensure business continuity during security incidents.
+        </p>
       </div>
     </div>
     <p class="note">
@@ -72,11 +93,19 @@
     </p>
     
   </section>
-  
-  
 
   <footer>
     <p>2025 Sabershield Cybersecurity LLC</p>
   </footer>
+  <!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800,
+    once: true,
+    easing: 'ease-in-out',
+  });
+</script>
+
 </body>
 </html>
