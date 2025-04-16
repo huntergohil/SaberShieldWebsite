@@ -108,3 +108,45 @@ button, .btn {
 button:hover, .btn:hover {
   background-color: #b8001c;
 }
+
+.hero-section {
+  padding: 4em 2em;
+  background-color: #121212;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2em;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo-box img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+  padding: 0.5em;
+  border: 2px solid #e60023;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.hero-text h2 {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 0.8em;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  color: #cccccc;
+  margin-bottom: 1.5em;
+}
